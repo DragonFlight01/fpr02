@@ -1,6 +1,21 @@
 .center {
     margin: auto;
-    width: 50%;
+    width: 75%;
     padding: 10px;
     background-color: lightblue;
+    margin-bottom: 50px;
+}
+
+.articles {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 20px;
+}
+
+.articles article {
+    background-color: lightblue;
+    padding: 10px;    
 }
